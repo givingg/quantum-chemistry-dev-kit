@@ -1,98 +1,16 @@
 # Quantum Chemistry Dev Kit
 
-All? the tools necessary to be the master of your protein domain. With a list of frameworks, libraries, software and resources.
-
-
-*A curated list of awesome protein folding frameworks, libraries, software and resources.*
+*All? the tools necessary to be the master of your protein domain. With a list of frameworks, libraries, software and resources.*
 
  > Structure-function relationships are the fundamental object of knowledge in protein chemistry; they allow us to rationally design drugs, engineer proteins with new functions, and understand why mutations cause disease. [- On The Origin of Proteins](https://www.chemistryworld.com/features/on-the-origin-of-proteins/3004719.article)
 
-> There is now a testable explanation for how a protein can fold so quickly: A protein solves its large global optimization problem as a series of smaller local optimization problems, growing and assembling the native structure from peptide fragments, local structures first. [- The Protein Folding Problem](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/)
-
-![Simpsons](simpsons.gif)
-
-The protein folding problem consists of three closely related puzzles:
-* (a) What is the folding code? 
-* (b) What is the folding mechanism?
-* (c) Can we predict the native structure of a protein from its amino acid sequence? [source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/)
-
- - [Data Sources](#data-sources)
- - [Deep Learning Protein Folding](#deep-learning-protein-folding)
- -  [Molecular Docking Tools](#molecular-docking-tools) 
  -  [Quantum Chemistry Tools](#quantum-chemistry-tools)
+ -  [Molecular Docking Tools](#molecular-docking-tools) 
+ -  [Data Sources](#data-sources)
+ -  [Protein Folding](#deep-learning-protein-folding)
  -  [StartUps](#startups)
  -  [Useful References](#useful-references) 
  -  [Z-A Protein Folding](#z-a-protein-folding) 
-
-
-## Data Sources
-
-![Prometheus](prometheus.gif)
-
-[CATH/Gene3D](https://www.cathdb.info/) - 151 Million Protein Domains Classified into 5,481 Superfamilies
-
-[NCBI Conserved Domains Database](https://www.ncbi.nlm.nih.gov/Structure/cdd/wrpsb.cgi) - resource for the annotation of functional units in proteins
-
-[Protein Data Bank](https://www.rcsb.org/)
-
-[Scop 2](https://scop.mrc-lmb.cam.ac.uk/) - Structural Classification of Proteins
-
-[UniProt](https://www.uniprot.org/) -  comprehensive, high-quality and freely accessible resource of protein sequence and functional information.
-
-## Deep Learning Protein Folding
-
-### [AlphaFold 14](https://www.predictioncenter.org/casp14/doc/presentations/2020_12_01_TS_predictor_AlphaFold2.pdf)
-
-  * [:book: Paper](https://www.nature.com/articles/s41586-019-1923-7.epdf?author_access_token=Z_KaZKDqtKzbE7Wd5HtwI9RgN0jAjWel9jnR3ZoTv0MCcgAwHMgRx9mvLjNQdB2TlQQaa7l420UCtGo8vYQ39gg8lFWR9mAZtvsN_1PrccXfIbc6e-tGSgazNL_XdtQzn1PHfy21qdcxV7Pw-k3htw%3D%3D)
-  * [:newspaper: article](https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery)
-  * [AlpahFold 14 Results Discussion](https://dasher.wustl.edu/bio5357/discussion/oxford-alphafold2.pdf)
-  * [What AlphaFold means for Structural BioInformatics](https://ammiellewb.medium.com/what-alphafold-means-for-structural-bioinformatics-78117adb7d11)
-  * [AlphaFold 2 Explained](https://youtu.be/B9PL__gVxLI) - Yanick Video
-  * [Illustrated Transformer](kjalammar.github.io/illustrated-transformer/)
-  * [Transformers from Scratch](http://peterbloem.nl/blog/transformers)
-
-### [AlphaFold 13](https://www.predictioncenter.org/CASP13/doc/presentations/Pred_CASP13-Structure-AlphaFold-Jumper.pdf)
-
-  * [:floppy_disk: Code](https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13)
-  * [:floppy_disk: Code](https://github.com/dellacortelab/prospr) - Prospr - Open Source Implementation
-  * [:book: Prospr Paper](https://www.biorxiv.org/content/10.1101/830273v1) 
-  * [AlphaFold @ Casp13: What Just Happened?](https://moalquraishi.wordpress.com/2018/12/09/alphafold-casp13-what-just-happened/) 
-
-### [MiniFold](https://github.com/hypnopump/MiniFold) - Open Source toy example of AlphaFold 13 algorithm 
-
-> The DeepMind work presented @ CASP was not a technological breakthrough (they did not invent any new type of AI) but an engineering one: they applied well-known AI algorithms to a problem along with lots of data and computing power and found a great solution through model design, feature engineering, model ensembling and so on...
-
-> Based on the premise exposed before, the aim of this project is to build a model suitable for protein 3D structure prediction inspired by AlphaFold and many other AI solutions that may appear and achieve SOTA results.
-
-![MiniFold](minifold.png)
-
-> Two different residual neural networks (ResNets) are used to predict angles between adjacent aminoacids (AAs) and distance between every pair of AAs of a protein. For distance prediction a 2D Resnet was used while for angles prediction a 1D Resnet was used.
-
-### PDNet
-
-> As deep learning algorithms drive the progress in protein structure prediction, a lot remains to be studied at this merging superhighway of deep learning and protein structure prediction. Recent findings show that inter-residue distance prediction, a more granular version of the well-known contact prediction problem, is a key to predicting accurate models. However, deep learning methods that predict these distances are still in the early stages of their development. To advance these methods and develop other novel methods, a need exists for a small and representative dataset packaged for faster development and testing. In this work, we introduce protein distance net (PDNET), a framework that consists of one such representative dataset along with the scripts for training and testing deep learning methods. The framework also includes all the scripts that were used to curate the dataset, and generate the input features and distance maps.
-
-[:desktop: Github](https://github.com/ba-lab/pdnet/)
-
-[:book: Paper](https://www.nature.com/articles/s41598-020-70181-0) 
-
-[:vhs: YouTube](https://youtu.be/uAIuA1O7iE8)
-
-## Molecular Docking Tools
-
-*Tools for exploring how two or more molecular structures fit together*
-
-[AutoDock](http://autodock.scripps.edu/) - suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure
-
-[AutoDock Vina](http://vina.scripps.edu/) - significantly improves the average accuracy of the binding mode predictions compared to AutoDock
-
-* [ :book: Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041641/)
-
-[Gnina](https://github.com/gnina/gnina) - deep learning framework for molecular docking -inside deepchem (/dock/pose_generation.py)
-
-[GOMoDo](https://gomodo.grs.kfa-juelich.de/php/about.php) - GPCR online modeling and docking server
-
-[Smina](https://github.com/mwojcikowski/smina) used for minimization (local_only) as opposed to of docking, makes Vina much easer to use and 10-20x faster. Docking performance is about the same since partial charge calculation and file i/o isn't such a big part of the performance.
 
 ## Quantum Chemistry Tools 
 
@@ -144,9 +62,86 @@ The protein folding problem consists of three closely related puzzles:
   * [:floppy_disk: Github](https://github.com/NLESC-JCER/QMCTorch)
 
 
-## Startups
+## Molecular Docking Tools
 
-[PharmAi](https://www.pharm.ai/) -  identifies drug candidates based on the geometry of protein binding sites and their drug-target interactions.
+*Tools for exploring how two or more molecular structures fit together*
+
+[AutoDock](http://autodock.scripps.edu/) - suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure
+
+[AutoDock Vina](http://vina.scripps.edu/) - significantly improves the average accuracy of the binding mode predictions compared to AutoDock
+
+* [ :book: Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041641/)
+
+[Gnina](https://github.com/gnina/gnina) - deep learning framework for molecular docking -inside deepchem (/dock/pose_generation.py)
+
+[GOMoDo](https://gomodo.grs.kfa-juelich.de/php/about.php) - GPCR online modeling and docking server
+
+[Smina](https://github.com/mwojcikowski/smina) used for minimization (local_only) as opposed to of docking, makes Vina much easer to use and 10-20x faster. Docking performance is about the same since partial charge calculation and file i/o isn't such a big part of the performance.
+
+
+## Data Sources
+
+![Prometheus](prometheus.gif)
+
+[CATH/Gene3D](https://www.cathdb.info/) - 151 Million Protein Domains Classified into 5,481 Superfamilies
+
+[NCBI Conserved Domains Database](https://www.ncbi.nlm.nih.gov/Structure/cdd/wrpsb.cgi) - resource for the annotation of functional units in proteins
+
+[Protein Data Bank](https://www.rcsb.org/)
+
+[Scop 2](https://scop.mrc-lmb.cam.ac.uk/) - Structural Classification of Proteins
+
+[UniProt](https://www.uniprot.org/) -  comprehensive, high-quality and freely accessible resource of protein sequence and functional information.
+
+## Protein Folding
+
+> There is now a testable explanation for how a protein can fold so quickly: A protein solves its large global optimization problem as a series of smaller local optimization problems, growing and assembling the native structure from peptide fragments, local structures first. [- The Protein Folding Problem](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/)
+
+![Simpsons](simpsons.gif)
+
+The protein folding problem consists of three closely related puzzles:
+* (a) What is the folding code? 
+* (b) What is the folding mechanism?
+* (c) Can we predict the native structure of a protein from its amino acid sequence? [source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/)
+
+### [AlphaFold 14](https://www.predictioncenter.org/casp14/doc/presentations/2020_12_01_TS_predictor_AlphaFold2.pdf)
+
+  * [:book: Paper](https://www.nature.com/articles/s41586-019-1923-7.epdf?author_access_token=Z_KaZKDqtKzbE7Wd5HtwI9RgN0jAjWel9jnR3ZoTv0MCcgAwHMgRx9mvLjNQdB2TlQQaa7l420UCtGo8vYQ39gg8lFWR9mAZtvsN_1PrccXfIbc6e-tGSgazNL_XdtQzn1PHfy21qdcxV7Pw-k3htw%3D%3D)
+  * [:newspaper: article](https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery)
+  * [AlpahFold 14 Results Discussion](https://dasher.wustl.edu/bio5357/discussion/oxford-alphafold2.pdf)
+  * [What AlphaFold means for Structural BioInformatics](https://ammiellewb.medium.com/what-alphafold-means-for-structural-bioinformatics-78117adb7d11)
+  * [AlphaFold 2 Explained](https://youtu.be/B9PL__gVxLI) - Yanick Video
+  * [Illustrated Transformer](kjalammar.github.io/illustrated-transformer/)
+  * [Transformers from Scratch](http://peterbloem.nl/blog/transformers)
+
+### [AlphaFold 13](https://www.predictioncenter.org/CASP13/doc/presentations/Pred_CASP13-Structure-AlphaFold-Jumper.pdf)
+
+  * [:floppy_disk: Code](https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13)
+  * [:floppy_disk: Code](https://github.com/dellacortelab/prospr) - Prospr - Open Source Implementation
+  * [:book: Prospr Paper](https://www.biorxiv.org/content/10.1101/830273v1) 
+  * [AlphaFold @ Casp13: What Just Happened?](https://moalquraishi.wordpress.com/2018/12/09/alphafold-casp13-what-just-happened/) 
+
+### [MiniFold](https://github.com/hypnopump/MiniFold) - Open Source toy example of AlphaFold 13 algorithm 
+
+> The DeepMind work presented @ CASP was not a technological breakthrough (they did not invent any new type of AI) but an engineering one: they applied well-known AI algorithms to a problem along with lots of data and computing power and found a great solution through model design, feature engineering, model ensembling and so on...
+
+> Based on the premise exposed before, the aim of this project is to build a model suitable for protein 3D structure prediction inspired by AlphaFold and many other AI solutions that may appear and achieve SOTA results.
+
+![MiniFold](minifold.png)
+
+> Two different residual neural networks (ResNets) are used to predict angles between adjacent aminoacids (AAs) and distance between every pair of AAs of a protein. For distance prediction a 2D Resnet was used while for angles prediction a 1D Resnet was used.
+
+[Fold@Home](https://foldingathome.org/about/)
+
+### PDNet
+
+> As deep learning algorithms drive the progress in protein structure prediction, a lot remains to be studied at this merging superhighway of deep learning and protein structure prediction. Recent findings show that inter-residue distance prediction, a more granular version of the well-known contact prediction problem, is a key to predicting accurate models. However, deep learning methods that predict these distances are still in the early stages of their development. To advance these methods and develop other novel methods, a need exists for a small and representative dataset packaged for faster development and testing. In this work, we introduce protein distance net (PDNET), a framework that consists of one such representative dataset along with the scripts for training and testing deep learning methods. The framework also includes all the scripts that were used to curate the dataset, and generate the input features and distance maps.
+
+[:desktop: Github](https://github.com/ba-lab/pdnet/)
+
+[:book: Paper](https://www.nature.com/articles/s41598-020-70181-0) 
+
+[:vhs: YouTube](https://youtu.be/uAIuA1O7iE8)
 
 
 ### Tools 
