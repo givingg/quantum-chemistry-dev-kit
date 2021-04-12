@@ -1,12 +1,14 @@
 # Quantum Chemistry Dev Kit
 
-*All? the tools necessary to be the master of your protein domain. With a list of frameworks, libraries, software and resources.*
+*All? the tools necessary to be the master of your protein domain. Docker + a list of frameworks, libraries, software and resources.*
 
- > Structure-function relationships are the fundamental object of knowledge in protein chemistry; they allow us to rationally design drugs, engineer proteins with new functions, and understand why mutations cause disease. [- On The Origin of Proteins](https://www.chemistryworld.com/features/on-the-origin-of-proteins/3004719.article)
+What's In The Box? 
+ 
+ # Docker
  
  ![cat](shrod.gif)
  
- ## Docker
+ 
 
  -  [Quantum Chemistry Tools](#quantum-chemistry-tools)
  -  [Molecular Docking Tools](#molecular-docking-tools) 
@@ -100,6 +102,8 @@
 ## Protein Folding
 
 > There is now a testable explanation for how a protein can fold so quickly: A protein solves its large global optimization problem as a series of smaller local optimization problems, growing and assembling the native structure from peptide fragments, local structures first. [- The Protein Folding Problem](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/)
+
+ > Structure-function relationships are the fundamental object of knowledge in protein chemistry; they allow us to rationally design drugs, engineer proteins with new functions, and understand why mutations cause disease. [- On The Origin of Proteins](https://www.chemistryworld.com/features/on-the-origin-of-proteins/3004719.article)
 
 ![Simpsons](simpsons.gif)
 
