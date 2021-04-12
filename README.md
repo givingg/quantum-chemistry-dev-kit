@@ -1,10 +1,8 @@
 # Quantum Chemistry Dev Kit
 
-*All? the tools necessary to be the master of your protein domain. Docker + a list of frameworks, libraries, software and resources.*
-
 What's In The Box? 
- 
- # Docker
+
+*All? the tools necessary to be the master of your protein domain. Docker + a list of frameworks, libraries, software and resources.*
  
  ![cat](shrod.gif)
  
