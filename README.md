@@ -4,7 +4,7 @@
 
 [What's In The Box?](https://www.theringer.com/movies/2020/9/22/21449898/seven-whats-in-the-box)
  
- ![cat](shrod.gif)
+ ![cat](images/shrod.gif)
  
  
 
@@ -18,7 +18,7 @@
 
 ## Quantum Chemistry Tools 
 
-![chemistry](chemistry.gif)
+![chemistry](images/chemistry.gif)
 
 [NWChem](https://www.nwchem-sw.org/)
 
@@ -85,7 +85,7 @@
 
 ## Data Sources
 
-![Prometheus](prometheus.gif)
+![Prometheus](images/prometheus.gif)
 
 [CATH/Gene3D](https://www.cathdb.info/) - 151 Million Protein Domains Classified into 5,481 Superfamilies
 
@@ -97,13 +97,16 @@
 
 [UniProt](https://www.uniprot.org/) -  comprehensive, high-quality and freely accessible resource of protein sequence and functional information.
 
+[XFam](http://xfam.org/]
+* [Pfam](http://pfam.xfam.org/) - a large collection of protein families, each represented by multiple sequence alignments and hidden Markov models
+
 ## Protein Folding
 
 > There is now a testable explanation for how a protein can fold so quickly: A protein solves its large global optimization problem as a series of smaller local optimization problems, growing and assembling the native structure from peptide fragments, local structures first. [- The Protein Folding Problem](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/)
 
  > Structure-function relationships are the fundamental object of knowledge in protein chemistry; they allow us to rationally design drugs, engineer proteins with new functions, and understand why mutations cause disease. [- On The Origin of Proteins](https://www.chemistryworld.com/features/on-the-origin-of-proteins/3004719.article)
 
-![Simpsons](simpsons.gif)
+![Simpsons](images/simpsons.gif)
 
 The protein folding problem consists of three closely related puzzles:
 * (a) What is the folding code? 
@@ -133,7 +136,7 @@ The protein folding problem consists of three closely related puzzles:
 
 > Based on the premise exposed before, the aim of this project is to build a model suitable for protein 3D structure prediction inspired by AlphaFold and many other AI solutions that may appear and achieve SOTA results.
 
-![MiniFold](minifold.png)
+![MiniFold](images/minifold.png)
 
 > Two different residual neural networks (ResNets) are used to predict angles between adjacent aminoacids (AAs) and distance between every pair of AAs of a protein. For distance prediction a 2D Resnet was used while for angles prediction a 1D Resnet was used.
 
@@ -157,7 +160,6 @@ The protein folding problem consists of three closely related puzzles:
 
 ### [RaptorX](http://raptorx.uchicago.edu/)
 
-![raptor](uploads/39c0dab87900f9607e977afc2a04a026/raptor.gif)
 
 [Raptor Standalone Software](https://github.com/j3xugit/RaptorX-3DModeling)
 
@@ -246,7 +248,7 @@ knowledge hodlers, and innovation stifflers are boring and old. this is for the 
 
 ### Scoring Function 
 
-![Goal](goal.gif)
+![Goal](images/goal.gif)
 
  There are two common approaches to building a score function: 
 * **potentials of mean force**
@@ -267,7 +269,7 @@ There is a score function and a fast method for producing the best possible sequ
 
 ### Probability 
 *Coming Soon*
-![Probably](probably.gif)
+![Probably](images/probably.gif)
 
 ### NMR 
 *Coming Soon*
