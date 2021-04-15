@@ -226,13 +226,13 @@ macro-molecular systems at the nanoscale"
 
 
 
-## Z-A Protein Folding 
+## Z-A Quantum Chemistry
 
 > So let it not look strange if I claim that it is much easier to explain the
 movement of the giant celestial bodies than to interpret in mechani-
 cal terms the origination of just a single caterpillar or a tiny grass. - Immanuel Kant, *Natural History and the Theory of Heaven*, 1755
 
-## Why Z-A Awesome Protein Folding? 
+## Why Z-A Quantum Chemistry? 
 
 Books on Cheminformatics, [Bioinformatics](http://thegrantlab.org/teaching/material/Intro_Structural_Bioinformatics_Barry.pdf), Quantum Chemistry strangle the subject to sleep 😴 and command a wild price 🤑 for the naps they induce.
 
@@ -275,6 +275,10 @@ There is a score function and a fast method for producing the best possible sequ
 *Coming Soon*
 ### Multiple Sequence Alignments (MSA) 
 *Coming Soon*
+###  Kohn–Sham Density Functional Theory (KS-DFT)
+*Coming Soon* 
+### Hartree–Fock (HF)
+*Coming Soon* 
 ### Coupled Clustering
 *Coming Soon*
 ### B Sheets 
