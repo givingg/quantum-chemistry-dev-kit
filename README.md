@@ -226,13 +226,13 @@ macro-molecular systems at the nanoscale"
 
 
 
-## Z-A Quantum Chemistry
+## Quantum Chemistry for New Bournes  
 
 > So let it not look strange if I claim that it is much easier to explain the
 movement of the giant celestial bodies than to interpret in mechani-
 cal terms the origination of just a single caterpillar or a tiny grass. - Immanuel Kant, *Natural History and the Theory of Heaven*, 1755
 
-## Why Z-A Quantum Chemistry? 
+## Why Quantum Chemistry for New Bournes? 
 
 Books on Cheminformatics, [Bioinformatics](http://thegrantlab.org/teaching/material/Intro_Structural_Bioinformatics_Barry.pdf), Quantum Chemistry strangle the subject to sleep 😴 and command a wild price 🤑 for the naps they induce.
 
@@ -245,6 +245,10 @@ Or feed yourself 🍼.
 Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, and most of all free.
 
 knowledge hodlers, and innovation stifflers are boring and old. this is for the young of mind and young of spirit 🚼 that love to fold. 
+
+## First Trimester
+
+Energy in atoms in quantized. - (can have only specific amounts of energy in steps)
 
 ### Scoring Function 
 
