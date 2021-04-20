@@ -256,7 +256,7 @@ Plank's Quantum Theory = light is made up of discrete energy packets.
 
 (1905) [On a Heuristic Point of View about the Creation and Conversion of Light](http://users.physik.fu-berlin.de/~kleinert/files/eins_lq.pdf) - Einstein's PhotoElectric Effect
 
--> Wave Particle Duality
+(1924) de Broglie Wave Particle Duality
 
 Energy in atoms in quantized.
 
