@@ -14,7 +14,7 @@
  -  [Protein Folding](#deep-learning-protein-folding)
  -  [StartUps](#startups)
  -  [Useful References](#useful-references) 
- -  [Z-A Protein Folding](#z-a-protein-folding) 
+ -  [Quantum Chemistry for New Bournes](#quantum-chemistr-for-new-bournes) 
 
 ## Quantum Chemistry Tools 
 
@@ -246,15 +246,19 @@ Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, 
 
 knowledge hodlers, and innovation stifflers are boring and old. this is for the young of mind and young of spirit 🚼 that love to fold. 
 
-## First Trimester
+## Let There Be Light
 
-Wave Theory || Particle Theory 
+Huygen's Wave Theory || Newtons Particle Theory  
+
+Plank's Quantum Theory = light is made up of discrete energy packets. 
+
+<img src="https://render.githubusercontent.com/render/math?math=\LARGE e^{i \pi} = -1">
 
 (1905) [On a Heuristic Point of View about the Creation and Conversion of Light](http://users.physik.fu-berlin.de/~kleinert/files/eins_lq.pdf) - Einstein's PhotoElectric Effect
 
 -> Wave Particle Duality
 
-Energy in atoms in quantized. - (can have only specific amounts of energy in steps)
+Energy in atoms in quantized.
 
 ### Scoring Function 
 
