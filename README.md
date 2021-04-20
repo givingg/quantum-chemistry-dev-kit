@@ -248,6 +248,10 @@ knowledge hodlers, and innovation stifflers are boring and old. this is for the 
 
 ## First Trimester
 
+Wave Theory || Particle Theory 
+
+[Einstein PhotoElectric Effect](http://users.physik.fu-berlin.de/~kleinert/files/eins_lq.pdf) -> Wave Particle Duality
+
 Energy in atoms in quantized. - (can have only specific amounts of energy in steps)
 
 ### Scoring Function 
