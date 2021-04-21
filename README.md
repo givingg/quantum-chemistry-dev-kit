@@ -66,7 +66,9 @@
   * [:floppy_disk: Github](https://github.com/NLESC-JCER/QMCTorch)
 
 
-## Molecular Docking Tools
+## Molecular Docking
+
+### Tools
 
 *Tools for exploring how two or more molecular structures fit together*
 
@@ -78,10 +80,17 @@
 
 [Gnina](https://github.com/gnina/gnina) - deep learning framework for molecular docking -inside deepchem (/dock/pose_generation.py)
 
-[GOMoDo](https://gomodo.grs.kfa-juelich.de/php/about.php) - GPCR online modeling and docking server
-
 [Smina](https://github.com/mwojcikowski/smina) used for minimization (local_only) as opposed to of docking, makes Vina much easer to use and 10-20x faster. Docking performance is about the same since partial charge calculation and file i/o isn't such a big part of the performance.
 
+[Gnina](https://github.com/gnina/gnina) - deep learning framework for molecular docking -inside deepchem (/dock/pose_generation.py)
+
+> Convolutional neuralar networks, can effectively learn to discriminate between correct and incorrect binding poses when trained  on  three-dimensional  protein-ligand  structures. 
+
+### Theories 
+
+Virtual screening = target structure scored with molecules from database to identify potential activies. 
+
+> A common approach to docking combines a scoring function with an optimization algorithm. The scoring function quantifies the favorability of the protein-ligand interactions in a single pose, whichcan be conceptualized as a point in a continuous conformation space. A stochastic global optimization algorithm is used to explore and sample this conformation space. Then, local optimization is employed on the sampled points, usually by iteratively adjusting the pose in search of a local extremum of the scoring function. Ideally, the scoring function is differentiable to support efficient gradient-based optimization.
 
 ## Data Sources
 
@@ -264,7 +273,17 @@ Energy in atoms in quantized.
 
 ![Goal](images/goal.gif)
 
- There are two common approaches to building a score function: 
+"Scoring functions map from a three-dimensional conformation of a protein and ligand to a single value estimating the strength of the interaction." [source](https://arxiv.org/pdf/1710.07400.pdf) 
+
+Tradtionally they are simple functions of weighted terms designed to represent important noncovalent features of binding, like electrostatic interactions and hydrophobic contact. [source](https://arxiv.org/pdf/1710.07400.pdf)
+
+Machine learning has emerged as an additional, increasingly popular approach to scoring functiondesign. Algorithms including:
+* random forests
+* support vector machines
+* neural networks
+have all been applied to scoring problems in various contexts.[source](https://arxiv.org/pdf/1710.07400.pdf)
+
+Overall two common approaches to building a scoring function now dominate: 
 * **potentials of mean force**
     * often called statistics- or Boltzmann-based force fields
     * measuring distance as a reflection of statistical tendencies within proteins
