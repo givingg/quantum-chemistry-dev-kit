@@ -92,6 +92,10 @@ Virtual screening = target structure scored with molecules from database to iden
 
 > A common approach to docking combines a scoring function with an optimization algorithm. The scoring function quantifies the favorability of the protein-ligand interactions in a single pose, whichcan be conceptualized as a point in a continuous conformation space. A stochastic global optimization algorithm is used to explore and sample this conformation space. Then, local optimization is employed on the sampled points, usually by iteratively adjusting the pose in search of a local extremum of the scoring function. Ideally, the scoring function is differentiable to support efficient gradient-based optimization.
 
+> The information obtained from the docking technique can be used to suggest the binding energy, free energy and stability of complexes. At present, docking technique is utilized to predict the tentative binding parameters of ligand-receptor complex beforehand.
+
+> There are various databases available, which offer information on small ligand molecules such as CSD (Cambridge Structural Database), ACD (Available Chemical Directory), MDDR (MDL Drug Data Report) and NCI (National Cancer Institute Database).
+
 ## Data Sources
 
 ![Prometheus](images/prometheus.gif)
